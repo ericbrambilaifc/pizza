@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --primary-color: #9D1518;
+    --secondary-color: #F2790F;
+    --white: #F2F2F2;
+    --dark: #852F0D;
+
+}
+
+body {
+    background-color: var(--secondary-color);
+
+}
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar-list a {
+    color: var(--white);
+}
+
+#logo-image {
+    width: 75%;
+}
+
+#cardapio {
+    margin-top: 40px;
+}
+
+#novidades {
+    margin-top: 80px;
+    background-color: var(--dark);
+    border-radius: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+#button-pizza {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 60px;
+
+}
+
+#button-pizza:hover {
+    background-color: #6d1112;
+    transition: 0.3s;
+}
+
+#text-cardapio {
+    color: var(--white);
+    background-color: var(--secondary-color);
+    padding: 15px;
+    
+}
+
+#home {
+    margin: 30px 140px;
+    background-color: var(--dark);
+    padding: 70px 0;
+    border-radius: 10px;
+}
+
+#principal-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#principal-home img {
+    margin-right: 250px;
+    width: 370px;
+    height: auto;
+}
+
+#principal-home h2 {
+    color: var(--white);
+    font-size: 50px;
+    margin-left: 320px;
+    font-size: 55px;
+}
+
+#principal-home p {
+    color: var(--white);
+    font-size: 16px;
+    margin-left: 320px;
+    margin-bottom: 20px;
+}
+
+#next-cardapio {
+    text-decoration: none;
+    background-color: var(--white);
+    color: var(--dark);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 320px;
+}
+
+#next-cardapio:hover {
+    background-color: #d6d3d3;
+    color: var(--dark);
+    transition: 0.3s;
+}
+
+#card {
+    color: var(--white);
+    font-size: 34px;
+}
